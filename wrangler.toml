@@ -29,7 +29,7 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["DiscogsRateLimiter"]
+new_sqlite_classes = ["DiscogsRateLimiter"]
 
 # Top-level config doubles as (a) the maintainer's local `wrangler dev` /
 # preview deploy target, and (b) the template the "Deploy to Cloudflare" button
