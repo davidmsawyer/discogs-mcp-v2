@@ -19,8 +19,7 @@ crons = ["23 1,7,13,19 * * *"]
 # Accepts a single ID or a comma-separated list (e.g. "123,456,789").
 # Empty = no allowlist (open; default for local dev and self-hosters).
 [vars]
-ALLOWED_DISCOGS_USER_ID = "davidos-old-school"
-
+ALLOWED_DISCOGS_USER_ID = "29111557"
 # Durable Object for coordinated Discogs API rate limiting
 [durable_objects]
 bindings = [
